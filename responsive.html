@@ -28,29 +28,31 @@
         </div>
         <div class="div3">
           <form>
-            <label for="First Name">
+            <label for="First Name" class="container" data-error="First Name cannot be empty">
             <input type="text" id="Firstname" placeholder="First Name" required>
             </label>
             <br>
             <br>
             <label for="Last Name">
-            <input type="text" id="Lastname" placeholder="Last Name" required>
+            <input type="text" id="Lastname" placeholder="Last Name">
             </label>
             <br>
             <br>
             <label for="Email">
-            <input type="email" id="Email" placeholder="Email Address" required>
+            <input type="email" id="Email" placeholder="Email Address">
             </label>
             <br>
             <br>
             <label for="Password">
-            <input type="password" id="Password" placeholder="Password" required>
+            <input type="password" id="Password" placeholder="Password">
             </label>
             <br>
             <br>
             <button>Claim your free trial</button>
           </form> 
-           By clicking this button, you are agreeing to our Terms and Services.
+           <div class="div4">
+             By clicking this button, you are agreeing to our <span style="color: red;"><b>Terms and Services</b></span>.
+            </div>
         </div>
     </div>
     </main>
