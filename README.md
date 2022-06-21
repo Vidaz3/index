@@ -1,2 +1,2 @@
 # responsive
-https://vidaz3.github.io/responsive/
+https://vidaz3.github.io/index/
