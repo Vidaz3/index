@@ -96,6 +96,10 @@ main{
     border-color: #c92432;
     color: #c92432;
     background: white;
+    background-image: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 6px;
 }
 .container1[data-error1]::after{
     content: attr(data-error1);
@@ -108,6 +112,10 @@ main{
     border-color: #c92432;
     color: #c92432;
     background: white;
+    background-image: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 6px;
 }
 .container2[data-error2]::after{
     content: attr(data-error2);
@@ -119,7 +127,11 @@ main{
 .container3[data-error3] #Email{
     border-color: #c92432;
     color: #c92432;
-    background: white
+    background: white;
+    background-image: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 6px;
 }
 .container3[data-error3]::after{
     content: attr(data-error3);
@@ -132,6 +144,10 @@ main{
     border-color: #c92432;
     color: #c92432;
     background: white;
+    background-image: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 6px;
 }
 .container4[data-error4]::after{
     content: attr(data-error4);
@@ -159,7 +175,10 @@ input:required:invalid{
     main{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
         margin: auto;
 
     }
@@ -193,4 +212,69 @@ input:required:invalid{
         margin: 0px 20px;
         margin-bottom: 50px;
     }
+    .container1[data-error1] #Firstname{
+        border-color: #c92432;
+        color: #c92432;
+        background: white;
+        background-image: url(./images/icon-error.svg);
+        background-repeat: no-repeat;
+        background-position-x: 280px;
+        background-position-y: 6px;
+    }
+    .container1[data-error1]::after{
+        content: attr(data-error1);
+        color: #c92432;
+        font-size: 10px;
+        font-style: italic;
+        margin: 0px 0px -10px 180px;
+    }
+    .container2[data-error2] #Lastname{
+        border-color: #c92432;
+        color: #c92432;
+        background: white;
+        background-image: url(./images/icon-error.svg);
+        background-repeat: no-repeat;
+        background-position-x: 280px;
+        background-position-y: 6px;
+    }
+    .container2[data-error2]::after{
+        content: attr(data-error2);
+        color: #c92432;
+        font-size: 10px;
+        font-style: italic;
+        margin: 0px 0px -10px 180px;
+    }
+    .container3[data-error3] #Email{
+        border-color: #c92432;
+        color: #c92432;
+        background: white;
+        background-image: url(./images/icon-error.svg);
+        background-repeat: no-repeat;
+        background-position-x: 280px;
+        background-position-y: 6px;
+    }
+    .container3[data-error3]::after{
+        content: attr(data-error3);
+        color: #c92432;
+        font-size: 10px;
+        font-style: italic;
+        margin: 0px 0px -10px 180px;
+    }
+    .container4[data-error4] #Password{
+        border-color: #c92432;
+        color: #c92432;
+        background: white;
+        background-image: url(./images/icon-error.svg);
+        background-repeat: no-repeat;
+        background-position-x: 280px;
+        background-position-y: 6px;
+    }
+    .container4[data-error4]::after{
+        content: attr(data-error4);
+        color: #c92432;
+        font-size: 10px;
+        font-style: italic;
+        margin: 0px 0px -10px 180px;
+    }
+    
 }
